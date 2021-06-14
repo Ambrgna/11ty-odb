@@ -1,10 +1,10 @@
 [build]
   publish = "_site"
-  command = "DEBUG=* eleventy"
+  command = "eleventy"
 
  [functions]
   node_bundler = "esbuild"
-  
+
 [[redirects]]
   from = "/shop"
   to = "/.netlify/functions/shop"
