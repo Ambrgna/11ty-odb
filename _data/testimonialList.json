@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Cassidy",
+    "message": "Look no further",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis pariatur minus consequuntur!",
+    "image": "https://res.cloudinary.com/netlify/image/upload/v1618208198/dxavi/cassidoo.jpg"
+  },
+  {
+    "name": "Jason",
+    "message": "It just works",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis pariatur minus consequuntur!",
+    "image": "https://res.cloudinary.com/netlify/image/upload/v1618208198/dxavi/jason.jpg"
+  },
+  {
+    "name": "Phil",
+    "message": "Look no further!",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis pariatur minus consequuntur!",
+    "image": "https://res.cloudinary.com/netlify/image/upload/v1618208199/dxavi/phil.jpg"
+  }
+]

@@ -1,0 +1,23 @@
+---
+site_title: Buy meals online
+---
+<!DOCTYPE html>
+<html>
+<head>
+<title>{{ site_title }}</title>
+<link rel="stylesheet" href="/css/tailwind.css"/>
+</head>
+    <body>
+        <div class="relative bg-white">
+            {% include "partials/_nav.html" %}
+            <div>
+                <p>{{ content | safe }}</p>
+            </div>
+            {% include "partials/_features.html" %}
+            {% include "../../testimonials.html" %}
+        </div>
+         {% include "partials/_footer.html" %}
+        </div>
+    </body>
+</html>
+
