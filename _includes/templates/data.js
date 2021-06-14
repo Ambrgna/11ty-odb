@@ -23,7 +23,7 @@ module.exports = (data) => {
                 <div class="px-6 pt-4 pb-2">
                 <button
                     class="inline-block bg-green-900 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2 text-white"
-                    > <a href="/shop/product/id/${product.id}"/>
+                    > <a href="https://eleventy-odb.netlify.app/shop/product/id/${product.id}"/>
                     View Product
                     </a>
                     </button>
