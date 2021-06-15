@@ -3,7 +3,7 @@ const fetch = require("node-fetch");
 
 // const { builder } = require("@netlify/functions");
 
-exports.handler = async (event) => {
+const handler = async (event) => {
   const id = event.path.split("product/")[1];
 
   console.log(id);
@@ -23,4 +23,4 @@ exports.handler = async (event) => {
   };
 };
 
-// exports.handler = builder(handler);
+exports.handler = builder(handler);
