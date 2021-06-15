@@ -1,9 +1,9 @@
 const pageTemplate = require("../../_includes/templates/product");
 const fetch = require("node-fetch");
 
-const { builder } = require("@netlify/functions");
+// const { builder } = require("@netlify/functions");
 
-const handler = async (event) => {
+exports.handler = async (event) => {
   const id = event.path.split("product/")[1];
 
   console.log(id);
@@ -23,4 +23,4 @@ const handler = async (event) => {
   };
 };
 
-exports.handler = builder(handler);
+// exports.handler = builder(handler);
