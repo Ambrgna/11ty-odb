@@ -2,7 +2,7 @@
   publish = "_site"
   command = "eleventy"
 
- [functions]
+[functions]
   node_bundler = "esbuild"
 
 [[redirects]]
@@ -10,7 +10,7 @@
   to = "/.netlify/functions/shop"
   status = 200
 
-  [[redirects]]
+[[redirects]]
   from = "/shop/product/*"
   to = "/.netlify/functions/odb-product"
   status = 200

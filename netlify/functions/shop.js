@@ -1,4 +1,4 @@
-const pageTemplate = require("../../_includes/templates/data");
+const pageTemplate = require("../../_includes/templates/product-list");
 const fetch = require("node-fetch");
 
 exports.handler = async (event) => {

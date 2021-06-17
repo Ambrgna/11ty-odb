@@ -1,13 +1,10 @@
-const pageTemplate = require("../../_includes/templates/product");
+const pageTemplate = require("../../_includes/templates/product-details");
 const fetch = require("node-fetch");
 
 const { builder } = require("@netlify/functions");
 
 const handler = async (event) => {
   const id = event.path.split("product/")[1];
-
-  console.log(id);
-
   const result = await fetch(`${process.env.PRODUCTS_DATA}/${id}`, {
     method: "GET",
   })
